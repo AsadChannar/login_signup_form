@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+  background-color: #f1f1f1; /* Set the background color of the page */
+}
+
+form {
+  background-color:  ; /* Set the form background to transparent */
+  max-width: 300px; /* Adjust the maximum width of the form to your preference */
+  margin: 0 auto; /* Center the form horizontally */
+  padding: 20px; /* Add some padding around the form */
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+a {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
+}
+
+    </style>
+</head>
+
+<body>
+    <h2>Sign up </h2>
+    <form action="/signup" method='post'>
+      
+        <input type="email" name="email" placeholder="Enter your's email">
+        <input type="password" name="password" placeholder="Password"><br>
+        <input type="submit" value="signup"> 
+                <br><hr>
+    </form>
+        <a href="/login"> Already have an account </a>
+
+</body>
+
+</html>
